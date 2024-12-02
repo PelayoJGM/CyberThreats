@@ -11,44 +11,52 @@
   <style>
     /* Estilo general de la página */
     body {
-      font-family: 'Courier New', Courier, monospace; /* Estilo de fuente similar a la consola MS-DOS */
+      font-family: 'Courier New', Courier, monospace; /* Fuente retro */
       background-color: black; /* Fondo negro */
-      color: #00FF00; /* Texto en verde neón */
+      color: #00FF00; /* Texto verde neón */
       margin: 0;
       padding: 0;
+      font-size: 14px; /* Fuente más pequeña */
     }
 
     header {
       text-align: center;
       padding: 20px;
-      border-bottom: 2px solid #00FF00;
+      border-bottom: 2px solid #00FF00; /* Línea verde neón */
+      font-size: 2.5em; /* Título más pequeño */
+      color: #00FF00;
     }
 
     h1 {
-      font-size: 3em; /* Aumentar tamaño del título */
-      margin: 0;
+      text-shadow: 0 0 10px #00FF00, 0 0 20px #00FF00, 0 0 30px #00FF00; /* Efecto de resplandor */
     }
 
     section {
       margin: 20px;
       padding: 20px;
+      font-size: 1em; /* Tamaño de texto más pequeño */
     }
 
     h2 {
-      font-size: 2em; /* Título de sección más grande */
+      font-size: 1.8em;
+      color: #FF00FF; /* Título de sección en rosa neón */
+      text-shadow: 0 0 5px #FF00FF, 0 0 10px #FF00FF; /* Efecto de resplandor */
     }
 
     p {
-      font-size: 1.2em; /* Aumentar tamaño del texto */
+      font-size: 1em;
+      line-height: 1.5;
+      color: #33CCFF; /* Azul neón para párrafos */
     }
 
     a {
-      color: #00FF00;
+      color: #00FFFF; /* Azul neón para enlaces */
       text-decoration: none;
     }
 
     a:hover {
       text-decoration: underline;
+      color: #FF00FF; /* Rosa neón al pasar el mouse */
     }
 
     footer {
@@ -66,18 +74,31 @@
 
     footer a:hover {
       text-decoration: underline;
+      color: #FF00FF; /* Rosa neón en enlaces del footer */
+    }
+
+    /* Agregar un borde futurista a los links */
+    a {
+      border: 1px solid transparent;
+      padding: 2px;
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      border: 1px solid #FF00FF;
+      padding: 2px 5px;
     }
 
   </style>
 </head>
 <body>
   <header>
-    <h1>Welcome to My Website</h1>
+    <h1>Welcome to My Cyberpunk Website</h1>
   </header>
 
   <section>
     <h2>About Me</h2>
-    <p>Hello! I'm [Your Name], a passionate Threat Intelligence Analyst.</p>
+    <p>Hello! I'm [Your Name], a passionate Threat Intelligence Analyst exploring the depths of cybersecurity.</p>
     <p>Feel free to connect with me on <a href="https://www.linkedin.com/in/tu-perfil" target="_blank">LinkedIn</a>.</p>
   </section>
 
