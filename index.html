@@ -1,12 +1,94 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bienvenido a mi web</title>
+  <title>Welcome to Strategos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      text-align: center;
+      background-color: #444;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      padding: 20px;
+    }
+    .about {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .articles {
+      margin-top: 30px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
 </head>
 <body>
-  <h1>Mi primer sitio web en GitHub Pages</h1>
-  <p>Este es un sitio web generado con HTML.</p>
+  <header>
+    <h1>Welcome to Strategos</h1>
+    <p>Your go-to source for threat intelligence insights and cybersecurity analysis</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#articles">Articles</a>
+    <a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a>
+  </nav>
+
+  <div class="container">
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>Hi, I'm <strong>Pelayo</strong>, a passionate Cybersecurity enthusiast and Threat Intelligence Analyst (TIA) specializing in the analysis of cyber threats, vulnerabilities, and attacks. I focus on understanding emerging threats and providing actionable insights to defend against them.</p>
+      <p>With a strong foundation in OSINT, network analysis, and a deep understanding of the evolving cyber threat landscape, my goal is to enhance cybersecurity awareness and help organizations build better defenses against cyber adversaries.</p>
+    </section>
+
+    <section id="articles" class="articles">
+      <h2>Featured Articles</h2>
+      <ul>
+        <li><a href="#">The State of Threat Intelligence in 2024</a></li>
+        <li><a href="#">How OSINT Can Aid in Threat Detection</a></li>
+        <li><a href="#">The Future of Cybersecurity: Trends to Watch</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Pelayo | Cybersecurity and Threat Intelligence Blog</p>
+  </footer>
 </body>
 </html>
