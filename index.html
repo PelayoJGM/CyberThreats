@@ -13,7 +13,7 @@
     body {
       font-family: 'Courier New', Courier, monospace; /* Fuente retro */
       background-color: black; /* Fondo negro */
-      color: #00FF00; /* Texto verde neón */
+      color: #66FF66; /* Texto verde suave */
       margin: 0;
       padding: 0;
       font-size: 14px; /* Fuente más pequeña */
@@ -22,13 +22,13 @@
     header {
       text-align: center;
       padding: 20px;
-      border-bottom: 2px solid #00FF00; /* Línea verde neón */
+      border-bottom: 2px solid #66FF66; /* Línea verde suave */
       font-size: 2.5em; /* Título más pequeño */
-      color: #00FF00;
+      color: #66FF66;
     }
 
     h1 {
-      text-shadow: 0 0 10px #00FF00, 0 0 20px #00FF00, 0 0 30px #00FF00; /* Efecto de resplandor */
+      text-shadow: 0 0 5px #66FF66, 0 0 10px #66FF66; /* Efecto de resplandor suave */
     }
 
     section {
@@ -39,54 +39,88 @@
 
     h2 {
       font-size: 1.8em;
-      color: #FF00FF; /* Título de sección en rosa neón */
-      text-shadow: 0 0 5px #FF00FF, 0 0 10px #FF00FF; /* Efecto de resplandor */
+      color: #FF66FF; /* Título de sección en rosa suave */
+      text-shadow: 0 0 5px #FF66FF, 0 0 10px #FF66FF; /* Efecto de resplandor suave */
     }
 
     p {
       font-size: 1em;
       line-height: 1.5;
-      color: #33CCFF; /* Azul neón para párrafos */
+      color: #33CCFF; /* Azul suave para párrafos */
     }
 
     a {
-      color: #00FFFF; /* Azul neón para enlaces */
+      color: #00FFFF; /* Azul suave para enlaces */
       text-decoration: none;
     }
 
     a:hover {
       text-decoration: underline;
-      color: #FF00FF; /* Rosa neón al pasar el mouse */
+      color: #FF66FF; /* Rosa suave al pasar el mouse */
     }
 
     footer {
       background-color: black;
-      color: #00FF00;
+      color: #66FF66;
       padding: 5px 0;
       text-align: center;
       font-size: 0.8em;
-      border-top: 1px solid #00FF00;
+      border-top: 1px solid #66FF66;
     }
 
     footer a {
-      color: #00FF00;
+      color: #66FF66;
     }
 
     footer a:hover {
       text-decoration: underline;
-      color: #FF00FF; /* Rosa neón en enlaces del footer */
+      color: #FF66FF; /* Rosa suave en enlaces del footer */
     }
 
-    /* Agregar un borde futurista a los links */
-    a {
-      border: 1px solid transparent;
-      padding: 2px;
-      transition: all 0.3s ease;
+    /* Estilo de la zona Danger Zone */
+    .danger-zone {
+      background-color: #FF0000; /* Rojo brillante para el fondo */
+      color: white;
+      padding: 20px;
+      text-align: center;
+      margin-top: 30px;
+      font-size: 1.5em;
     }
 
-    a:hover {
-      border: 1px solid #FF00FF;
-      padding: 2px 5px;
+    .danger-zone a {
+      color: #FFFF00; /* Amarillo brillante para enlaces */
+    }
+
+    .danger-zone p {
+      font-size: 1.2em;
+    }
+
+    /* Estilo del log-in de miembros */
+    .login-section {
+      background-color: #333333; /* Fondo oscuro */
+      color: #66FF66;
+      padding: 20px;
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .login-section p {
+      font-size: 1.2em;
+    }
+
+    /* Estilo de las publicaciones */
+    .publications {
+      margin-top: 40px;
+    }
+
+    .publications ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .publications li {
+      font-size: 1.2em;
+      margin: 10px 0;
     }
 
   </style>
@@ -98,13 +132,39 @@
 
   <section>
     <h2>About Me</h2>
-    <p>Hello! I'm [Your Name], a passionate Threat Intelligence Analyst exploring the depths of cybersecurity.</p>
+    <p>Hello! I'm JP, a passionate Threat Intelligence Analyst exploring the depths of cybersecurity.</p>
     <p>Feel free to connect with me on <a href="https://www.linkedin.com/in/tu-perfil" target="_blank">LinkedIn</a>.</p>
   </section>
 
+  <!-- Danger Zone Section -->
+  <section class="danger-zone">
+    <h2>Danger Zone</h2>
+    <p><a href="#">Click here to enter the Danger Zone</a></p>
+    <p><strong>Note:</strong> Only members who have been invited by an existing user can sign in.</p>
+  </section>
+
+  <!-- Login Section -->
+  <section class="login-section">
+    <h2>Members Log In</h2>
+    <p>Sign in to access exclusive content.</p>
+    <p><strong>* Only available if invited by another registred user.</strong></p>
+  </section>
+
+  <!-- Publications Section -->
+  <section class="publications">
+    <h2>Recent Publications</h2>
+    <ul>
+      <li><a href="https://link-to-publication1.com" target="_blank">Publication Title 1</a></li>
+      <li><a href="https://link-to-publication2.com" target="_blank">Publication Title 2</a></li>
+      <li><a href="https://link-to-publication3.com" target="_blank">Publication Title 3</a></li>
+      <!-- Add more publications here -->
+    </ul>
+  </section>
+
   <footer>
-    <p>© 2024 [Your Name]. All Rights Reserved. | <a href="https://www.linkedin.com/in/tu-perfil" target="_blank">LinkedIn</a></p>
+    <p>© 2024 JP. All Rights Reserved. | <a href="https://www.linkedin.com/in/tu-perfil" target="_blank">LinkedIn</a></p>
   </footer>
 </body>
 </html>
+
 
